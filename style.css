@@ -76,3 +76,9 @@ a {
   text-shadow: 0 0 5px #fff;
   color: white;
 }
+
+@media screen and (max-width: 600px) {
+  #title {
+    font-size: 1em;
+  }
+}
