@@ -1,10 +1,13 @@
+:root {
+  --primary: #67ff52;
+}
+
 * {
   box-sizing: border-box;
 }
 
 html,
 body {
-  background-color: rgb(28, 26, 26);
   color: white;
   font-family: "Kdam Thmor Pro", sans-serif;
   min-height: 100vh;
@@ -17,6 +20,24 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(28, 26, 26);
+  background-image: url("./img/bridge.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#background {
+  /* background-size: 100vw 101vh; */
+  /* left: -1vw;
+  right: 101vw; */
+  /* top: 50vh; */
+  /* bottom: 101vh; */
+  /* height: 100vh; */
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -100;
+  backdrop-filter: brightness(80%);
 }
 
 main {
@@ -27,14 +48,37 @@ main {
   height: 100%;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.069);
+  border: 1px solid rgba(255, 255, 255, 0.159);
+  padding: 20px;
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+}
+
 a {
   text-decoration: none;
 }
+
+#profile_picture {
+  border-radius: 50%;
+  width: 150px;
+  /* border: 1px solid rgba(255, 255, 255, 0.159); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 #name {
   padding: 0;
   margin: 0;
-  color: #eee;
-  font-size: 3em;
+  color: rgb(255, 255, 255);
+  font-size: 2.5em;
+}
+#prefix {
+  color: rgba(255, 255, 255, 0.171);
 }
 
 #title {
@@ -54,9 +98,9 @@ a {
 }
 
 .socials a svg {
-  fill: #00ff88;
-  -webkit-filter: drop-shadow(0 0 5px #00ff88);
-  filter: drop-shadow(0 0 5px #00ff88);
+  fill: var(--primary);
+  -webkit-filter: drop-shadow(0 0 5px var(--primary));
+  filter: drop-shadow(0 0 5px var(--primary));
   transition: all 0.05s linear;
 }
 .socials a:hover svg {
@@ -66,8 +110,8 @@ a {
 }
 
 #zkasino {
-  color: #00ff88;
-  text-shadow: 0 0 5px #00ff88;
+  color: var(--primary);
+  text-shadow: 0 0 5px var(--primary);
 
   transition: all 0.05s linear;
 }
