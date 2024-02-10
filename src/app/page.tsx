@@ -55,6 +55,7 @@ export default function Home() {
         <h3>Testing</h3>
         <ul>
           <li>Playwright</li>
+          <li>Dappwright</li>
         </ul>
 
         <h3>Web3</h3>
