@@ -1,0 +1,30 @@
+.container {
+}
+
+.techs {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+/* 
+.techs > * {
+  border-left: 1px solid rgb(83, 83, 83);
+  margin-left: -1px;
+}
+
+.techs > *:nth-child(10) {
+  border-right: 1px solid rgb(83, 83, 83);
+}
+.techs > *:nth-child(20) {
+  border-right: 1px solid rgb(83, 83, 83);
+}
+.techs > *:nth-child(30) {
+  border-right: 1px solid rgb(83, 83, 83);
+}
+.techs > *:nth-child(40) {
+  border-right: 1px solid rgb(83, 83, 83);
+}
+
+.techs > * {
+  border-left: 1px solid rgb(83, 83, 83);
+  margin-left: -1px;
+} */

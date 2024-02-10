@@ -1,0 +1,13 @@
+.container {
+  height: 4rem;
+  width: 6rem;
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.container img {
+  height: 100%;
+  aspect-ratio: 1;
+}

@@ -1,0 +1,9 @@
+.container {
+  /* display: flex; */
+}
+
+.companies {
+  display: flex;
+  justify-content: space-evenly;
+  /* height: 5rem; */
+}
