@@ -21,41 +21,74 @@ export default function Home() {
 
       <div>
         <h2>Tech Stack</h2>
+
+        <h3>Web</h3>
         <ul>
           <li>HTML5/CSS3</li>
           <li>Node</li>
-          <li>Git</li>
-          <li>Subversion</li>
-
           <li>Javascript</li>
           <li>Typescript</li>
           <li>React</li>
           <li>Next.js</li>
+        </ul>
+
+        <h3>State Management</h3>
+        <ul>
           <li>Redux</li>
           <li>Redux Saga</li>
           <li>Zustand</li>
-          <li>WebRTC</li>
-          <li>i18n</li>
+        </ul>
 
+        <h3>Internationalization</h3>
+        <ul>
+          <li>next-i18next</li>
+          <li>Lingui</li>
+        </ul>
+
+        <h3>Versioning and Deployment</h3>
+        <ul>
+          <li>Vercel</li>
+          <li>Git</li>
+          <li>Subversion</li>
+        </ul>
+
+        <h3>Testing</h3>
+        <ul>
           <li>Playwright</li>
-          <li>C/C++</li>
-          <li>C#</li>
-          <li>GDScript</li>
-          <li>Go</li>
-          <li>Matlab</li>
-          <li>Mathematica</li>
+        </ul>
 
+        <h3>Web3</h3>
+        <ul>
+          <li>Ethers.js</li>
+          <li>Viem</li>
+        </ul>
+
+        <h3>Data Science</h3>
+        <ul>
           <li>Python</li>
           <li>OpenCV</li>
           <li>BeautifulSoup</li>
           <li>Pytorch</li>
+          <li>Matlab</li>
+          <li>Mathematica</li>
+        </ul>
 
-          <li>Ethers.js</li>
-          <li>Viem</li>
+        <h3>Art,Writing and Notes</h3>
+        <ul>
           <li>LaTeX</li>
           <li>Notion</li>
           <li>Inkscape</li>
           <li>Excalidraw</li>
+        </ul>
+
+        <h3>Other</h3>
+        <ul>
+          <li>Go</li>
+          <li>C/C++</li>
+          <li>WebRTC</li>
+          <li>C#</li>
+          <li>GDScript</li>
+          <li>MIDI</li>
         </ul>
       </div>
     </main>
