@@ -1,0 +1,39 @@
+.container {
+  min-height: 3rem;
+  padding-inline: 1.25rem;
+  border: none;
+  background-color: transparent;
+  border-radius: 4px;
+  transition: all 0.1s ease-out;
+
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.primary {
+  color: black;
+  background-color: white;
+}
+.primary:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+.secondary {
+  color: white;
+  border: 1px solid var(--border_color);
+}
+
+.secondary:hover {
+  border-color: rgb(224, 224, 224);
+}
+
+.container:disabled {
+  cursor: default;
+}
+
+@media (width < 700px) {
+  .container {
+    padding-inline: 0.5rem;
+  }
+}

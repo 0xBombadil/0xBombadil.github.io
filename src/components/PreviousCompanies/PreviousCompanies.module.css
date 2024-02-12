@@ -1,9 +1,16 @@
 .container {
-  /* display: flex; */
+  display: flex;
+  font-size: 2rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.container h2 {
+  font-size: 1em;
 }
 
 .companies {
   display: flex;
   justify-content: space-evenly;
-  /* height: 5rem; */
+  gap: 1rem;
 }

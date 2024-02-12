@@ -1,0 +1,75 @@
+.container {
+  border: 1px solid var(--border_color);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 3rem;
+  min-height: 60vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  color: white;
+
+  --twitter_color: rgb(0, 153, 255);
+  --email_color: rgb(255, 136, 0);
+  --glow_opacity: 0;
+}
+
+/* .glow {
+  position: absolute;
+  inset: 0%;
+
+  z-index: -2;
+
+  opacity: calc(var(--glow_opacity) * 0.5);
+  transition: all 0.1s ease-out;
+  box-shadow: inset 0 0 100px var(--background);
+} */
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.twitter,
+.email {
+  font-size: 2rem;
+  fill: black;
+  border-radius: 4px;
+  background-color: white;
+  display: flex;
+  padding: 2rem;
+  transition: all 0.1s ease-out;
+}
+
+.twitter:hover {
+  background-color: var(--twitter_color);
+}
+
+.email:hover {
+  background-color: var(--email_color);
+}
+
+.dots {
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: radial-gradient(circle at center, var(--glow_color) 1px, transparent 0);
+  background-size: 30px 30px;
+  background-position: center;
+  transition: all 1s ease-out;
+}
+.dots_glow {
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: radial-gradient(circle at center, var(--glow_color) 1px, transparent 0);
+  background-size: 30px 30px;
+  background-position: center;
+  transition: all 1s ease-out;
+  filter: blur(4px);
+}
