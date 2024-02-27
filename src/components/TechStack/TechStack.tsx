@@ -21,6 +21,7 @@ export default function TechStack() {
         <Tech name="Redux" icon="tech/redux.svg" />
         <Tech name="Redux Saga" icon="tech/reduxsaga.svg" />
         <Tech name="Zustand" icon="tech/zustand.png" />
+        <Tech name="Svelte" icon="tech/svelte.svg" />
         <Tech name="Three.js" icon="tech/threejs.svg" />
         <Tech name="React Fiber" icon="tech/reactfiber.svg" />
         <Tech name="next-i18next" icon="tech/i18n.png" />
